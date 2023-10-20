@@ -1,5 +1,6 @@
 # Student-Roster-C867
 C867 Student Roster Project
+Requirements have been copied and pasted from the C867 Rubric. Please note the rubric may have changed since I have completed this project.
 
 **INTRODUCTION**
 Throughout your career in software development, you will develop and maintain new and existing applications. You will be expected to fix issues as well as add new enhancements or migrate existing applications to new platforms or different programming languages. As a software developer, your role will be to create a design of an application based on given business requirements. After the design is completed, you must implement the application based on the design document and provided requirements.
@@ -101,4 +102,5 @@ classRoster.remove("A3");
 //expected: the above line should print a message saying such a student with this ID was not found.
 
 5.  Implement the destructor to release the memory that was allocated dynamically in Roster.
+   
 **G.  Demonstrate professional communication in the content and presentation of your submission.**
