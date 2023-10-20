@@ -24,8 +24,9 @@ You may not include third-party libraries. Your submission should include one zi
 
 **REQUIREMENTS**
 
-A.  Modify the “studentData Table” to include your personal information as the last item.
-B.  Create a C++ project in your integrated development environment (IDE) with the following files:
+**A.  Modify the “studentData Table” to include your personal information as the last item.**
+
+**B.  Create a C++ project in your integrated development environment (IDE) with the following files:**
 
 •  degree.h
 
@@ -38,10 +39,10 @@ B.  Create a C++ project in your integrated development environment (IDE) with t
 
 Note: There must be a total of six source code files.
  
-C.  Define an enumerated data type DegreeProgram for the degree programs containing the data type values SECURITY, NETWORK, and SOFTWARE.
-Note: This information should be included in the degree.h file.
+**C.  Define an enumerated data type DegreeProgram for the degree programs containing the data type values SECURITY, NETWORK, and SOFTWARE.
+Note: This information should be included in the degree.h file.**
 
-D.  For the Student class, do the following:
+**D.  For the Student class, do the following:**
 1.  Create the class Student  in the files student.h and student.cpp, which includes each of the following variables:
 •  student ID
 •  first name
@@ -59,7 +60,7 @@ c.  All external access and changes to any instance variables of the Student cla
 d.  constructor using all of the input parameters provided in the table
 e.  print() to print specific student datA
 
-E.  Create a Roster class (roster.cpp) by doing the following:
+**E.  Create a Roster class (roster.cpp) by doing the following:**
 1.  Create an array of pointers, classRosterArray, to hold the data provided in the “studentData Table.”
 2.  Create a student object for each student in the data table and populate classRosterArray.
 
@@ -78,7 +79,7 @@ Note: A valid email should include an at sign ('@') and period ('.') and should 
 
 f.  public void printByDegreeProgram(DegreeProgram degreeProgram) that prints out student information for a degree program specified by an enumerated type.
  
-F.  Demonstrate the program’s required functionality by adding a main() function in main.cpp, which will contain the required function calls to achieve the following results:
+**F.  Demonstrate the program’s required functionality by adding a main() function in main.cpp, which will contain the required function calls to achieve the following results:**
 
 1.  Print out to the screen, via your application, the course title, the programming language used, your WGU student ID, and your name.
 2.  Create an instance of the Roster class called classRoster.
@@ -100,4 +101,4 @@ classRoster.remove("A3");
 //expected: the above line should print a message saying such a student with this ID was not found.
 
 5.  Implement the destructor to release the memory that was allocated dynamically in Roster.
-G.  Demonstrate professional communication in the content and presentation of your submission.
+**G.  Demonstrate professional communication in the content and presentation of your submission.**
